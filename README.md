@@ -61,4 +61,36 @@ The functions in this toolbox are designed to help researchers and data analysts
    ```matlab
    addpath('path/to/repository');
    ```
-3. TEST
+3. Navigate to the repository directory within MATLAB.
+
+### Running the Example
+
+To see a full demonstration of the analysis pipeline, run the following command in MATLAB:
+```matlab
+runExample;
+```
+This will execute a synthetic analysis pipeline that:
+- Generates an example model and factor structure.
+- Computes contrast matrices and condition weight matrices.
+- Applies hypothesis testing and computes condition estimates.
+- Plots the effect of the continuous predictor.
+- Produces an HTML report summarizing all the results.
+
+## Documentation
+
+The header of each function file includes detailed documentation and usage examples. Open any file in MATLAB to view the inline help.
+
+## Contributing
+
+Contributions, suggestions, and improvements are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the [CC BY-NC 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode.en).
+You are free to share and adapt the material under the following terms:
+- **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial:** You may not use the material for commercial purposes.
+- **No additional restrictions:** You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+## Contact
+For questions or feedback, please contact Sam Berens at [s.berens@sussex.ac.uk](mailto:s.berens@sussex.ac.uk).
