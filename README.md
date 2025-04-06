@@ -1,4 +1,4 @@
-# modelTools
+# modelTools for MATLAB
 
 This repository contains a collection of MATLAB functions for performing contrast analysis on treatment-coded statistical models. The toolbox enables users to construct design matrices, compute contrast and condition weight matrices, run hypothesis tests (t-tests and F-tests), and generate detailed HTML reports summarizing model results.
 
